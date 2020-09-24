@@ -7,4 +7,16 @@
     <string name="numeroresultado">-</string>
     <string name="btn_form">Formulario</string>
     <string name="txtCredits">URL</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="name" />
+    <string name="txt_apellido">Apellido(*)</string>
+    <string name="apellido"></string>
+    <string name="txt_email">Email(*)</string>
+    <string name="email" />
+    <string name="txt_mensaje">Mensaje</string>
+    <string name="mensaje" />
+    <string name="checkbox">Suscribite por Email</string>
+    <string name="web_url"><a href="http://www.google.com">Web del Vendedor</a></string>
+    <string name="btn_confirmar">Confirmar</string>
+    <string name="btn_cancelar">Cancelar</string>
 </resources>

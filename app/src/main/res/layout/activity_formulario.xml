@@ -14,14 +14,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.079"
-        tools:layout_editor_absoluteX="5dp">
+        tools:layout_editor_absoluteX="5dp"
+        android:layout_marginStart="20dp"
+        >
 
         <TextView
+            android:layout_marginStart="20dp"
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text="@string/txt_nombre"
             android:textSize="18sp" />
 
         <EditText
@@ -31,7 +34,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/name" />
 
     </LinearLayout>
 
@@ -43,15 +46,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.179"
-        tools:layout_editor_absoluteX="-3dp">
+        tools:layout_editor_absoluteX="-3dp"
+        android:layout_marginStart="20dp"
+        >
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
-            android:textSize="18sp" />
+            android:text="@string/txt_apellido"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -60,13 +67,14 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/apellido" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="407dp"
         android:layout_height="69dp"
+        android:layout_marginStart="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout3"
@@ -78,7 +86,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/txt_email"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -87,7 +98,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/email" />
     </LinearLayout>
 
     <LinearLayout
@@ -95,6 +106,7 @@
         android:layout_width="408dp"
         android:layout_height="99dp"
         android:orientation="horizontal"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
         app:layout_constraintVertical_bias="0.088"
@@ -105,7 +117,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/txt_mensaje"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
@@ -113,8 +128,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:height="30dp"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/mensaje" />
     </LinearLayout>
 
     <LinearLayout
@@ -122,6 +138,7 @@
         android:layout_width="407dp"
         android:layout_height="104dp"
         android:orientation="vertical"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
         app:layout_constraintVertical_bias="0.253"
@@ -132,14 +149,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CheckBox" />
+            android:text="@string/checkbox"
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/web_url"
+            android:textSize="18sp"/>
 
 
     </LinearLayout>
@@ -148,6 +167,7 @@
         android:layout_width="414dp"
         android:layout_height="69dp"
         android:orientation="horizontal"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
         app:layout_constraintVertical_bias="0.6"
@@ -158,13 +178,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="#49599a"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btn_confirmar" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="#49599a"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btn_cancelar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
