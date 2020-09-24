@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">guia4-sumar</string>
+    <string name="numero2">Numero2</string>
+    <string name="numero1">Numero1</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="result">Resultado</string>
+    <string name="numeroresultado">-</string>
+    <string name="btn_form">Formulario</string>
+    <string name="txtCredits">URL</string>
+</resources>
